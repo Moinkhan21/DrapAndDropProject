@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag & Drop</title>
+    <!-- Link to external stylesheet for styling -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Container for the drag-and-drop areas -->
+    <div class="container">
+        <!-- Left box with draggable items -->
+        <div id="left">
+            <div class="list" draggable="true"><img src="drag_drop_icon.png" alt="icon">List Item 1</div>
+            <div class="list" draggable="true"><img src="drag_drop_icon.png" alt="icon">List Item 2</div>
+            <div class="list" draggable="true"><img src="drag_drop_icon.png" alt="icon">List Item 3</div>
+            <div class="list" draggable="true"><img src="drag_drop_icon.png" alt="icon">List Item 4</div>
+        </div>
+        
+        <!-- Right box for dropping items -->
+        <div id="right"></div>
+    </div>
+
+    <!-- Link to JavaScript for drag-and-drop functionality -->
+    <script src="script.js"></script>
+</body>
+</html>
